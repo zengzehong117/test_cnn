@@ -1,0 +1,23 @@
+﻿生成启动时间为 2017/5/27 4:02:37。
+     1>项目“E:\Projects\test\test_protobuf\test_protobuf.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (test_protobuf.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"E:\NugetPackages\protobuf-v120.2.6.1\build\native\../..//build/native/include/" /IE:\NugetPackages\gflags.2.1.2.1\build\native\include\ /IE:\NugetPackages /IE:\NugetPackages\glog.0.3.3.0\build\native\include\ /IE:\NugetPackages\boost.1.59.0.0\lib\native\include\ /ID:\opencv\build\include /ID:/opencv/build /ID:/opencv/build/opencv /ID:/opencv/build/opencv2 /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /D _MBCS /D _SCL_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_WARNINGS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt test_main.cpp
+         test_main.cpp
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Projects\test\Debug\TestCnn.exe" /INCREMENTAL /NOLOGO /LIBPATH:E:\NugetPackages\boost.1.59.0.0\lib "E:\NugetPackages\protobuf-v120.2.6.1\build\native\../..//build/native/lib/Win32\v120\Debug\libprotobuf.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Projects\test\Debug\TestCnn.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Projects\test\Debug\TestCnn.lib" /MACHINE:X86 Debug\test_protobuf.res
+         Debug\blob.obj
+         Debug\convolution_layer.obj
+         Debug\data_layer.obj
+         Debug\layer.obj
+         Debug\net.obj
+         Debug\pooling_layer.obj
+         Debug\test_main.obj
+         Debug\test_protobuf.pb.obj
+     1>test_main.obj : error LNK2019: 无法解析的外部符号 _cvLoadImage，该符号在函数 _main 中被引用
+     1>E:\Projects\test\Debug\TestCnn.exe : fatal error LNK1120: 1 个无法解析的外部命令
+     1>已完成生成项目“E:\Projects\test\test_protobuf\test_protobuf.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:02.19

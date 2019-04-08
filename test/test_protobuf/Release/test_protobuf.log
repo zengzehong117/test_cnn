@@ -1,0 +1,20 @@
+﻿生成启动时间为 2017/5/15 22:48:28。
+     1>项目“E:\Projects\test\test_protobuf\test_protobuf.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"E:\NugetPackages\protobuf-v120.2.6.1\build\native\../..//build/native/include/" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt test_main.cpp test_protobuf.pb.cc
+         test_main.cpp
+         test_protobuf.pb.cc
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /l"0x0409" /I"E:\NugetPackages\protobuf-v120.2.6.1\build\native\../..//build/native/include/" /nologo /fo"Release\test_protobuf.res" test_protobuf.rc 
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Projects\test\Release\test_protobuf.exe" /NOLOGO "E:\NugetPackages\protobuf-v120.2.6.1\build\native\../..//build/native/lib/Win32\v120\Release\libprotobuf.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Projects\test\Release\test_protobuf.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Projects\test\Release\test_protobuf.lib" /MACHINE:X86 /SAFESEH Release\test_protobuf.res
+         Release\test_main.obj
+         Release\test_protobuf.pb.obj
+         正在生成代码
+         已完成代码的生成
+         test_protobuf.vcxproj -> E:\Projects\test\Release\test_protobuf.exe
+     1>已完成生成项目“E:\Projects\test\test_protobuf\test_protobuf.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.52

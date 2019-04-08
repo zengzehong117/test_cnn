@@ -1,0 +1,52 @@
+﻿生成启动时间为 2017/7/7 1:57:07。
+     1>项目“E:\Projects\test\test_protobuf\test_protobuf.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"E:\NugetPackages\protobuf-v120.2.6.1\build\native\../..//build/native/include/" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt blob.cpp convolution_layer.cpp data_layer.cpp innerproduct_layer.cpp layer.cpp net.cpp pooling_layer.cpp relu_layercpp.cpp test_main.cpp test_protobuf.pb.cc
+         blob.cpp
+         convolution_layer.cpp
+         data_layer.cpp
+     1>data_layer.cpp(8): fatal error C1083: 无法打开包括文件: “opencv2/core/core.hpp”: No such file or directory
+         innerproduct_layer.cpp
+         layer.cpp
+         net.cpp
+         pooling_layer.cpp
+         relu_layercpp.cpp
+         test_main.cpp
+     1>E:\NugetPackages\protobuf-v120.2.6.1\build\native\include\google/protobuf/io/coded_stream.h(977): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\NugetPackages\protobuf-v120.2.6.1\build\native\include\google/protobuf/io/coded_stream.h(1162): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>e:\projects\test\test_protobuf\convolution_layer.cu(1): fatal error C1083: 无法打开包括文件: “cuda_runtime.h”: No such file or directory
+         test_protobuf.pb.cc
+     1>E:\NugetPackages\protobuf-v120.2.6.1\build\native\include\google/protobuf/io/coded_stream.h(977): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\NugetPackages\protobuf-v120.2.6.1\build\native\include\google/protobuf/io/coded_stream.h(1162): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\NugetPackages\protobuf-v120.2.6.1\build\native\include\google/protobuf/wire_format_lite_inl.h(822): warning C4267: “参数”: 从“size_t”转换到“google::protobuf::uint32”，可能丢失数据
+     1>E:\NugetPackages\protobuf-v120.2.6.1\build\native\include\google/protobuf/wire_format_lite_inl.h(823): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\NugetPackages\protobuf-v120.2.6.1\build\native\include\google/protobuf/wire_format_lite_inl.h(826): warning C4267: “参数”: 从“size_t”转换到“google::protobuf::uint32”，可能丢失数据
+     1>E:\NugetPackages\protobuf-v120.2.6.1\build\native\include\google/protobuf/wire_format_lite_inl.h(827): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>test_protobuf.pb.cc(473): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>test_protobuf.pb.cc(525): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>test_protobuf.pb.cc(551): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>test_protobuf.pb.cc(798): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>test_protobuf.pb.cc(815): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>test_protobuf.pb.cc(833): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>test_protobuf.pb.cc(852): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>test_protobuf.pb.cc(943): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>test_protobuf.pb.cc(953): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>test_protobuf.pb.cc(963): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>test_protobuf.pb.cc(973): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>test_protobuf.pb.cc(1017): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>test_protobuf.pb.cc(1028): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>test_protobuf.pb.cc(1039): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>test_protobuf.pb.cc(1049): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>test_protobuf.pb.cc(2167): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>test_protobuf.pb.cc(2235): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>test_protobuf.pb.cc(2265): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>test_protobuf.pb.cc(2969): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>test_protobuf.pb.cc(3026): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>test_protobuf.pb.cc(3052): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\NugetPackages\protobuf-v120.2.6.1\build\native\include\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\NugetPackages\protobuf-v120.2.6.1\build\native\include\google/protobuf/wire_format_lite_inl.h(413): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<google::protobuf::uint32,TYPE_FIXED32>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<google::protobuf::uint32> *)”的引用
+     1>已完成生成项目“E:\Projects\test\test_protobuf\test_protobuf.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:09.39

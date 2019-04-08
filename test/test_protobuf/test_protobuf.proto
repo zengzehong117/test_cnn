@@ -1,0 +1,71 @@
+
+syntax = "proto2";
+
+message NetParameter{
+  optional string name=1;
+  repeated LayerParameter layers=12;
+}
+message LayerParameter{
+  optional string name=1;
+  optional string type=2;
+  repeated string bottom=3;
+  repeated string top=4;
+  optional File_input_data_param input_param=5; 
+  optional ConvolutionParameter conv_param=6; 
+  optional PoolingParameter pooling_param=7; 
+  optional InnerproductParameter innerproduct_param=8; 
+  
+  }
+ message File_input_data_param{
+ optional Shape shape=1;
+ }
+ message Shape{
+ repeated int32 dim=1;
+ }
+ message ConvolutionParameter{
+ required int32 num_output=1;
+ required int32 kernel=2;
+ required int32 stride=3;
+ optional int32 pad=4;
+ 
+ }
+ message PoolingParameter{
+
+ required string pool=1;
+ required int32 kernel=2;
+ required int32 stride=3;
+ }
+
+ message InnerproductParameter{
+  required int32 num_output=1;
+ }
+
+message Myblobs{
+optional int32 blob_count=1;
+repeated Myblob blob=2;
+}
+message Myblob{
+optional string name=1;
+repeated float data=2;
+}
+
+
+//for meanfile
+message BlobProto {
+  optional BlobShape shape = 7;
+  repeated float data = 5 [packed = true];
+  repeated float diff = 6 [packed = true];
+  repeated double double_data = 8 [packed = true];
+  repeated double double_diff = 9 [packed = true];
+
+  // 4D dimensions -- deprecated.  Use "shape" instead.
+  optional int32 num = 1 [default = 0];
+  optional int32 channels = 2 [default = 0];
+  optional int32 height = 3 [default = 0];
+  optional int32 width = 4 [default = 0];
+}
+message BlobShape {
+  repeated int64 dim = 1 [packed = true];
+}
+
+//for meanfile
